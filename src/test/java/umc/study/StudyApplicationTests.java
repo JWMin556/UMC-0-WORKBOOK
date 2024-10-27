@@ -1,10 +1,10 @@
-package com.umc.workbook_zero;
+package umc.study;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WorkbookZeroApplicationTests {
+class StudyApplicationTests {
 
 	@Test
 	void contextLoads() {
