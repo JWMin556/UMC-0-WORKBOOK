@@ -22,4 +22,14 @@ public class Store extends BaseEntity {
     private String address;
 
     private Float score;
+
+    @Override
+    public String toString() {
+        return "Store{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", score=" + score +
+                '}';
+    }
 }
